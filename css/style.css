@@ -118,6 +118,10 @@ li{
 	font-weight: 700;
 }
 
+.mobile {
+	display: none;
+}
+
 .logo {
 	width: 150px;
 	float: left;
@@ -317,6 +321,13 @@ li{
 
 	#user-links{
 		margin-left: -30px;
+	}
+	
+	.mobile {
+		display: unset;
+	}
+	.webscreen {
+		display: none;
 	}
 }
 
