@@ -243,9 +243,9 @@ li:nth-child(2){
 		display: none;
 	}
 	
-	.topnav a:not(:first-child) {
+	/*.topnav a:not(:first-child) {
 		display: none;
-	}
+	}*/
 	
 	.topnav a.icon {
 		float: right;
@@ -268,11 +268,11 @@ li:nth-child(2){
 		text-align: left;
 	}
 	
-	.topnav a:nth-child(2) {
+	/*.topnav a:nth-child(2) {
 		margin-top: 30px;
 		padding: 10px 30px;
 		font-size: 4em;
-	}
+	}*/
 
 	.topnav a:nth-child(3) {
 		padding: 10px 30px;
