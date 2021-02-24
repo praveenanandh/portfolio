@@ -1,0 +1,550 @@
+.container{
+	width:100%;
+}
+.row{
+	display:block ruby;
+}
+.col-lg-12 {
+	width: 100%;
+}
+.col-lg-11 {
+	width: 91.66666667%;
+}
+.col-lg-10 {
+	width: 83.33333333%;
+}
+.col-lg-9 {
+	width: 75%;
+}
+.col-lg-8 {
+	width: 66.66666667%;
+}
+.col-lg-7 {
+	width: 58.33333333%;
+}
+.col-lg-6 {
+	width: 50%;
+}
+.col-lg-5 {
+	width: 41.66666667%;
+}
+.col-lg-4 {
+	width: 33.33333333%;
+}
+.col-lg-3 {
+	width: 25%;
+}
+.col-lg-2 {
+	width: 16.66666667%;
+}
+.col-lg-1 {
+	width: 8.33333333%;
+}
+.col-lg-12,.col-lg-11,.col-lg-10,.col-lg-9,.col-lg-8,.col-lg-7,.col-lg-6,.col-lg-5,.col-lg-4,.col-lg-3,.col-lg-2,.col-lg-1 {
+	float:left;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+marquee{
+	font-size:2em;
+	padding: 10px;
+	background-color: white;
+	font-weight: 800;
+}
+
+
+
+.css-selector {
+    background: linear-gradient(137deg, #47e9c0, #f09c19, #0395dc, #e3da1a);
+    background-size: 800% 800%;
+
+    -webkit-animation: background_animation 16s ease infinite;
+    -moz-animation: background_animation 16s ease infinite;
+    animation: background_animation 16s ease infinite;
+}
+
+@-webkit-keyframes background_animation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes background_animation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes background_animation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+
+/** Auto Type**/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/* body{
+  padding: 40px;
+  background-color: #121212;  
+} */
+
+.auto-type{
+	margin-left: 14px;
+}
+
+.auto-type p {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  margin: 100px -95px 7px;
+  font-size: 4em;
+}
+
+/* Animation */
+.auto-type p {
+  animation: animated-text 4s steps(44,end) 1s 1 normal both,
+			 animated-cursor 500ms steps(44,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 140%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button4 {
+	background-color: white;
+	color: black;
+	border: 2px solid #e7e7e7;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+	background-color: white;
+	color: black;
+	border: 2px solid transparent;
+  }
+  
+  .button5:hover {
+	background-color: #555555;
+	color: white;
+  }
+
+  #selection-area{
+		text-align: center;
+		margin-top: 8px;
+		margin-left: 120px;
+		border: 4px solid white;
+		padding: 65px;
+		margin-right: 120px;
+  }
+
+  #selection-area h1{
+	  font-size: 4em;
+  }
+
+  
+  #selection-area button{
+	font-size: 1.6em;
+	border-radius: 12px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+/*************** Media Query **************/
+
+@media only screen and (max-width:1900px){
+	@keyframes animated-text{
+		from{width: 0;}
+		to{width: 120%;}
+	  }
+
+	  .auto-type p{
+		margin: 100px -25px 7px;
+	  }
+}
+
+
+@media only screen and (max-width:1650px){
+	@keyframes animated-text{
+		from{width: 0;}
+		to{width: 120%;}
+	  }
+	  .auto-type p{
+		margin: 100px -20px 7px;
+	  }
+}
+
+
+
+@media only screen and (max-width:1424px){
+	.auto-type p{
+		margin: 100px -46px 7px;
+	  }
+}
+
+@media only screen and (max-width:1390px){
+	@keyframes animated-text{
+		from{width: 0;}
+		to{width: 165%;}
+	  }
+	.auto-type p{
+		margin: 100px -46px 7px;
+	  }
+}
+
+
+@media only screen and (max-width:1331px){
+	@keyframes animated-text{
+		from{width: 0;}
+		to{width: 165%;}
+	  }
+	.auto-type p{
+		margin: 100px -76px 7px;
+	  }
+}
+
+
+@media only screen and (max-width:1281px){
+	.auto-type p{
+		margin: 100px -86px 7px;
+	  }
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 155%;}
+	  }
+}
+
+
+
+@media only screen and (max-width:1244px){
+	.auto-type p{
+		margin: 100px -175px 7px;
+	  }
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 175%;}
+	  }
+}
+
+
+@media only screen and (max-width:1166px){
+	.auto-type p{
+		margin: 100px -126px 7px;
+	  }
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 155%;}
+	  }
+}
+
+
+
+@media only screen and (max-width:1093px){
+	.auto-type p{
+		margin: 100px -126px 7px;
+		font-size: 50px;
+	  }
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 155%;}
+	  }
+}
+
+@media only screen and (max-width:991px){
+	.auto-type p{
+		margin: 100px -106px 7px;
+		font-size: 45px;
+	  }
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	  }
+	  #selection-area button {
+		font-size: 2.6em;
+	  }
+}
+
+
+@media only screen and (max-width:933px){
+	.auto-type p{
+		margin: 100px -106px 7px;
+		font-size: 40px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 2em;
+	}
+	  #selection-area h1 {
+		font-size: 3.5em;
+	}
+}
+
+
+@media only screen and (max-width:831px){
+	.auto-type p{
+		margin: 100px -86px 7px;
+		font-size: 35px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 2em;
+	}
+	  #selection-area h1 {
+		font-size: 3.5em;
+	}
+
+	#selection-area{
+		padding: 60px 0px;
+	}
+}
+
+@media only screen and (max-width:770px){
+	.auto-type p{
+		margin: 100px -86px 7px;
+		font-size: 30px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1.5em;
+	}
+	  #selection-area h1 {
+		font-size: 3em;
+	}
+}
+
+
+@media only screen and (max-width:717px){
+	.auto-type p{
+		margin: 100px -86px 7px;
+		font-size: 30px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1.5em;
+	}
+	  #selection-area h1 {
+		font-size: 2.4em;
+	}
+}
+
+
+
+@media only screen and (max-width:656px){
+	.auto-type p{
+		margin: 100px -46px 7px;
+		font-size: 25px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1.1em;
+	}
+	  #selection-area h1 {
+		font-size: 1.5em;
+	}
+}
+
+
+@media only screen and (max-width:586px){
+	.auto-type p{
+		margin: 100px -46px 7px;
+		font-size: 25px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1.1em;
+	}
+	  #selection-area h1 {
+		font-size: 1.5em;
+	}
+
+	/* #buttons-area{
+		margin-left: -18px;
+	} */
+}
+
+
+@media only screen and (max-width:564px){
+	.auto-type p{
+		margin: 100px -26px 7px;
+		font-size: 18px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1em;
+	}
+	  #selection-area h1 {
+		font-size: 1em;
+	}
+/* 
+	#buttons-area{
+		margin-left: -38px;
+	}  */
+
+}
+
+
+
+@media only screen and (max-width:514px){
+	.auto-type p{
+		margin: 100px -26px 7px;
+		font-size: 18px;
+	}
+	
+	@keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: 1em;
+	}
+	  #selection-area h1 {
+		font-size: 1em;
+	}
+	.button{
+		padding: 12px 20px;
+	}
+/* 
+	#buttons-area{
+		margin-left: -50px;
+	}  */
+
+}
+
+
+
+
+@media only screen and (max-width:464px){
+	.auto-type p{
+		margin: 100px -26px 7px;
+		font-size: 15px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: .6em;
+	}
+	  #selection-area h1 {
+		font-size: 1em;
+	}
+
+	#buttons-area{
+		margin-left: -10px;
+	} 
+
+}
+
+
+
+
+@media only screen and (max-width:416px){
+	.auto-type p{
+		margin: 100px -26px 7px;
+		font-size: 12px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: .4em;
+	}
+	  #selection-area h1 {
+		font-size: 1em;
+	}
+
+	#buttons-area{
+		margin-left: -10px;
+	} 
+
+}
+
+
+
+@media only screen and (max-width:385px){
+	.auto-type p{
+		margin: 100px -26px 7px;
+		font-size: 12px;
+	}
+
+	  @keyframes animated-text{
+		from{width: 0;}
+		to{width: 150%;}
+	}
+	  #selection-area button {
+		font-size: .6em;
+	}
+	  #selection-area h1 {
+		font-size: .7em;
+	}
+
+	#buttons-area{
+		margin-left: -30px;
+	} 
+
+}
